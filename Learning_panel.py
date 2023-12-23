@@ -24,7 +24,7 @@ from langchain.chains.question_answering import load_qa_chain
 from streamlit_markmap import markmap
 from streamlit_option_menu import option_menu
 
-OPENAI_API_KEY =  "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"
+
 st.set_page_config(layout="wide")
 
 if 'file_status' not in st.session_state:
