@@ -67,7 +67,7 @@ with data:
     selected = option_menu(
             menu_title=None,
             options=["Resource Portal", "Learning Commons"],
-            icons = ["book", "study"],
+            icons = ["cloud-upload", "book"],
             menu_icon="cast",
             orientation = "horizontal"
     )
