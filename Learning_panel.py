@@ -17,7 +17,6 @@ from langchain.llms import AzureOpenAI
 from langchain.chains.question_answering import load_qa_chain
 from langchain.callbacks import get_openai_callback
 from langchain.vectorstores import Chroma
-import pinecone
 from langchain.vectorstores import Chroma, Pinecone
 from langchain.llms import OpenAI
 from langchain.chains.question_answering import load_qa_chain
@@ -68,7 +67,7 @@ with data:
     selected = option_menu(
             menu_title=None,
             options=["Resource Portal", "Learning Commons"],
-            icons = ["books", "study"],
+            icons = ["book", "study"],
             menu_icon="cast",
             orientation = "horizontal"
     )
@@ -131,7 +130,6 @@ with data:
                 st.session_state.youtube_status = False
                 st.session_state.website_status = False
                 st.session_state.textupload_status = True
-
 
     if selected == "Learning Commons":
         raw, summary, glossary, quiz, mindmap = st.tabs([ "Raw Data", "Summary", "Glossary", "Quiz", "Mindmap"])
