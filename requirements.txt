@@ -7,9 +7,9 @@ pytube
 pandas
 pyarrow
 pip
-numpy=
+numpy
 youtube_transcript_api
-streamlit-markmap==1.0.1
+streamlit-markmap
 streamlit-authenticator
 pickle
 pathlib
