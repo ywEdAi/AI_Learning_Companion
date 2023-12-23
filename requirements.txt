@@ -9,3 +9,4 @@ streamlit-markmap
 st-pages
 streamlit-option-menu
 beautifulsoup4
+PyPDF2
