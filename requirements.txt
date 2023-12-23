@@ -8,3 +8,4 @@ youtube_transcript_api
 streamlit-markmap
 st-pages
 streamlit-option-menu
+beautifulsoup4
