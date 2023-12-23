@@ -24,6 +24,9 @@ from streamlit_markmap import markmap
 from streamlit_option_menu import option_menu
 
 
+OPENAI_API_KEY =  "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"
+assistant_id = 'asst_EaBv4T3DNDv8CMlMDLu19mHm'
+
 st.set_page_config(layout="wide")
 
 if 'file_status' not in st.session_state:

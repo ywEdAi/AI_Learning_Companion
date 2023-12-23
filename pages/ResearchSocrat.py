@@ -18,9 +18,10 @@ st.set_page_config(
 st.title("ResearchSocrat")
 st.write("Research tutor that guides students for independent research based on research methodologies and socratic questioning")
 st.write("Please ask questions about how to conduct an independent research related to your interested topic")
-client = OpenAI(api_key=os.environ.get('OPENAI_API_KEY'))
+OPENAI_API_KEY =  "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"
+assistant_id = 'asst_EaBv4T3DNDv8CMlMDLu19mHm'
 
-assistant_id = os.environ.get('ASSISTANT_ID')
+client = OpenAI(api_key=OPENAI_API_KEY)
 
 assistant_state = "assistant"
 thread_state = "thread"

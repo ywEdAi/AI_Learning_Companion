@@ -9,9 +9,8 @@ from langchain import PromptTemplate
 import openai
 from openai import OpenAI
 
-openai_api_key =  "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"
-os.environ["OPENAI_API_KEY"] = openai_api_key
-client = OpenAI()
+OPENAI_API_KEY =  "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"
+client = OpenAI(api_key=OPENAI_API_KEY)
 
 def getSummary(content):
     if len(content) > 8000:
