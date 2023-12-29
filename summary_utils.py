@@ -7,10 +7,12 @@ from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain.chains.summarize import load_summarize_chain
 from langchain import PromptTemplate
 import openai
+from dotenv import load_dotenv
 from openai import OpenAI
 
-OPENAI_API_KEY =  "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"
-client = OpenAI(api_key=OPENAI_API_KEY)
+openai_api_key =  "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"
+os.environ["OPENAI_API_KEY"] = openai_api_key
+client = OpenAI()
 
 def getSummary(content):
     if len(content) > 8000:
