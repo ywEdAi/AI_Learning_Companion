@@ -19,8 +19,12 @@ st.title("ResearchSocrat")
 st.write("Research tutor that guides students for independent research based on research methodologies and socratic questioning")
 st.write("Please ask questions about how to conduct an independent research related to your interested topic")
 <<<<<<< HEAD:old_pages/ResearchSocrat.py
+<<<<<<< HEAD:old_pages/ResearchSocrat.py
 OPENAI_API_KEY =  "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"
 assistant_id = 'asst_EaBv4T3DNDv8CMlMDLu19mHm'
+=======
+client = OpenAI(api_key=os.environ.get('OPENAI_API_KEY'))
+>>>>>>> parent of a4eb7b1 (okay):pages/ResearchSocrat.py
 =======
 client = OpenAI(api_key=os.environ.get('OPENAI_API_KEY'))
 >>>>>>> parent of a4eb7b1 (okay):pages/ResearchSocrat.py
